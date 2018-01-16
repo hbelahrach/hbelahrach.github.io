@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+
+.overlay {
+  border: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../images/jamie-street.jpg");
+  background-size:  cover;   
+  background-repeat: no-repeat;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  z-index: 0;
+}
+
+.card {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,.3);
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  z-index: 1;
+}
+
+.card h2{
+  position: relative;
+  word-spacing: -0.15em;
+  font-weight: 500;
+  font-size: 1.6em;
+  width: 100%;
+  color: #fff;
+}
+
+.card h2:after{
+  position: absolute;
+  bottom: -10px;
+  left: 62px;
+  right: 62px;
+  height: 2px;
+  background: #fff;
+  color: #fff;
+  content: '';
+}
+
+.card .description {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 1em;
+}
+
+.photo {
+  height: 6rem;
+  width: 6.5rem;
+  border-radius: 50%;
+}
+
+.links {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  padding: 4px;
+}
+
+.links img {
+  vertical-align: middle;
+  margin: 0 4;
+  height: 2.9rem;
+  width: 2.9rem;
+}
+
+.links .facebook  {
+  vertical-align: middle;
+  height: 3.3rem;
+  width: 3.3rem;
+}
+
+.reference {
+  position: absolute;
+  color: navajowhite;
+  font-size: 0.7rem;
+  right: 1%;
+  bottom: 1%;
+  z-index: 1;
+}
